@@ -2,10 +2,9 @@ import styled from 'styled-components';
 
 export const OptionContainer = styled.div`
 	display: flex;
-	flex-direction: column;
-	jusitfy-content: center;
 	align-items: center;
-	>img: {
+	justify-content: center;
+	> img {
 		height: 18px;
 		object-fit: contain;
 		padding: 10px;
