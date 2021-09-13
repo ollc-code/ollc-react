@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
 			justifyContent: 'space-between',
 			padding: '0px 30px'}}
 			>
-				<h3>OLLC</h3>
+				<h3>OLLC Dev</h3>
 				<FlexRow>
 					<NavbarOptionComponent />
 				</FlexRow>
