@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ollc-react/static/css/main.dea6db0a.chunk.css",
-    "main.js": "/ollc-react/static/js/main.7bf1d8f2.chunk.js",
-    "main.js.map": "/ollc-react/static/js/main.7bf1d8f2.chunk.js.map",
+    "main.css": "/ollc-react/static/css/main.5a513abc.chunk.css",
+    "main.js": "/ollc-react/static/js/main.6441184b.chunk.js",
+    "main.js.map": "/ollc-react/static/js/main.6441184b.chunk.js.map",
     "runtime-main.js": "/ollc-react/static/js/runtime-main.e81e934a.js",
     "runtime-main.js.map": "/ollc-react/static/js/runtime-main.e81e934a.js.map",
     "static/js/2.0f5b2c79.chunk.js": "/ollc-react/static/js/2.0f5b2c79.chunk.js",
@@ -10,13 +10,13 @@
     "index.html": "/ollc-react/index.html",
     "service-worker.js": "/ollc-react/service-worker.js",
     "service-worker.js.map": "/ollc-react/service-worker.js.map",
-    "static/css/main.dea6db0a.chunk.css.map": "/ollc-react/static/css/main.dea6db0a.chunk.css.map",
+    "static/css/main.5a513abc.chunk.css.map": "/ollc-react/static/css/main.5a513abc.chunk.css.map",
     "static/js/2.0f5b2c79.chunk.js.LICENSE.txt": "/ollc-react/static/js/2.0f5b2c79.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e81e934a.js",
     "static/js/2.0f5b2c79.chunk.js",
-    "static/css/main.dea6db0a.chunk.css",
-    "static/js/main.7bf1d8f2.chunk.js"
+    "static/css/main.5a513abc.chunk.css",
+    "static/js/main.6441184b.chunk.js"
   ]
 }
