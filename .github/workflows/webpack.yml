@@ -33,5 +33,5 @@ jobs:
       run: |
         git config --global user.email "keane3pereira@gmail.com"
         git config --global user.name "keane3pereira"
-        git remote set-url origin https://${{secrets.DEPLOY_TOKEN}}@github.com/ollc-code/ollc-react
+        git remote set-url origin https://${{secrets.DEPLOY_SECRET}}@github.com/ollc-code/ollc-react
         npm run deploy
