@@ -3,6 +3,11 @@ name: NodeJS with Webpack
 on:
   push:
     branches: [ deploy ]
+<<<<<<< HEAD
+=======
+  pull_request:
+    branches: [ deploy ]
+>>>>>>> master
 
 jobs:
   build:
