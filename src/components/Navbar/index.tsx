@@ -1,23 +1,18 @@
 import React from 'react';
 import { NavbarContainer } from './styles';
-import { NavbarOptionComponent } from '../OptionComponent';
+import { NavbarOptionComponent } from '../NavbarOptionComponent';
 import { FlexRow } from '../Common/commonStyles';
 
 const Navbar: React.FC = () => {
 	return (
-		<NavbarContainer style={{ width: '100%', background: 'red' }}>
-			<FlexRow
-				style={{
-					justifyContent: 'space-between',
-					width: '100%',
-					padding: '0px 10px',
-				}}
+		<NavbarContainer style={{ 
+			justifyContent: 'space-between',
+			padding: '0px 30px'}}
 			>
-				<h3>Some text</h3>
-				<FlexRow style={{ padding: '0 5px', gap: '20px' }}>
+				<h3>OLLC</h3>
+				<FlexRow>
 					<NavbarOptionComponent />
 				</FlexRow>
-			</FlexRow>
 		</NavbarContainer>
 	);
 };
