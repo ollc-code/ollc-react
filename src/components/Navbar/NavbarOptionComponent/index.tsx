@@ -1,8 +1,9 @@
 import React from 'react';
-import { OptionContainer } from './styles';
+import { NavbarOption } from '../NavbarOption';
 import HomeIcon from "@material-ui/icons/Home";
-import AnnouncementIcon from "@material-ui/icons/Announcement";
 import LiveTvIcon from "@material-ui/icons/LiveTv";
+import AnnouncementIcon from "@material-ui/icons/Announcement";
+
 
 export const NavbarOptionComponent: React.FC = () => {
 
@@ -24,11 +25,9 @@ export const NavbarOptionComponent: React.FC = () => {
 	return (
 		<>
 			{array.map((item, index) => {
+				console.log(item.icon.type);
 				return (
-					<OptionContainer key={index}>
-				    	<p style={{padding:"5px"}}>{item.icon}</p>
-						<p style={{padding:"5px"}}>{item.name}</p>
-					</OptionContainer>
+					<NavbarOption name={item.name} icon={item.icon} key={index} />
 				);
 			})}
 		</>

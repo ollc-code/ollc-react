@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavbarContainer } from './styles';
-import { NavbarOptionComponent } from '../NavbarOptionComponent';
+import { NavbarOptionComponent } from './NavbarOptionComponent';
 import { FlexRow } from '../Common/commonStyles';
 
 const Navbar: React.FC = () => {
